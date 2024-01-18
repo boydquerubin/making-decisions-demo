@@ -10,22 +10,22 @@ let jamieLannisterAttack = 35
 let jonSnowHealth = 100
 let jonSnowDefense = 10
 
-// if(jonSnowAttack > jamieLannisterAttack) {
-//     console.log('Jon Snow has a greater attack power than Jamie Lannister')
-// } else if(jamieLannisterAttack > jonSnowAttack) {
-//     console.log('Jamie Lannister has a greater attack power than Jon Snow')
+// if (jonSnowAttack > jamieLannisterAttack) {
+//     console.log ('Jon Snow has a greater attack power than Jamie Lannister')
+// } else if (jamieLannisterAttack > jonSnowAttack) {
+//     console.log ('Jamie Lannister has a greater attack power than Jon Snow')
 // } else {
-//     console.log('Jamie Lannister has the same attack power')
+//     console.log ('Jamie Lannister has the same attack power')
 // }
 
-// if(jonSnowHealth <= jamieLannisterAttack - jonSnowDefense) {
-//     console.log("Jon snow lives")
+// if (jonSnowHealth <= jamieLannisterAttack - jonSnowDefense) {
+//     console.log ("Jon snow lives")
 // } else {
 //     jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
 //     console.log(`Jon snow has ${jonSnowHealth}`)
 // }
 
-// if(jonSnowHealth +50 >= 100) {
+// if (jonSnowHealth +50 >= 100) {
 //     jonSnowHealth = 100
 //     console.log ("Jon is fully healed!")
 // } else {
