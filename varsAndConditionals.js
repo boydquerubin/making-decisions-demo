@@ -10,8 +10,16 @@ let jamieLannisterAttack = 35
 let jonSnowHealth = 100
 let jonSnowDefense = 10
 
-if(jonSnowAttack > jamieLannisterAttack){
-    console.log('Jon Snow has a greater attack power than Jamie Lannister')
+// if(jonSnowAttack > jamieLannisterAttack) {
+//     console.log('Jon Snow has a greater attack power than Jamie Lannister')
+// } else if(jamieLannisterAttack > jonSnowAttack) {
+//     console.log('Jamie Lannister has a greater attack power than Jon Snow')
+// } else {
+//     console.log('Jamie Lannister has the same attack power')
+// }
+
+if(jonSnowHealth > jamieLannisterAttack) {
+    console.log "Jon snow lives"
 } else {
-    console.log('Jamie Lannister has a greater attack power than Jon Snow')
+    console.log "Jon snow has died"
 }
